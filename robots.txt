@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://allthingsembedded.com/sitemap.xml
+Sitemap: https://allthingsembedded.com/staging-web/sitemap.xml
