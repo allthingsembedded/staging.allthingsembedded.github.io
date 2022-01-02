@@ -12,7 +12,7 @@
 <meta name=apple-mobile-web-app-capable content="yes">
 <meta name=apple-mobile-web-app-status-bar-style content="#f8f5ec">
 <meta name=author content="Javier Alvarez"><meta name=description content="The place for embedded software"><meta name=keywords content="Software,Embedded,Engineering">
-<meta name=generator content="Hugo 0.88.1 with theme even">
+<meta name=generator content="Hugo 0.91.2 with theme even">
 <link rel=canonical href=https://allthingsembedded.com/staging-web/>
 <link href=https://allthingsembedded.com/staging-web/index.xml rel=alternate type=application/rss+xml title=AllThingsEmbedded>
 <link href=https://allthingsembedded.com/staging-web/index.xml rel=feed type=application/rss+xml title=AllThingsEmbedded>
@@ -84,6 +84,25 @@
 <section id=posts class=posts>
 <article class=post>
 <header class=post-header>
+<h1 class=post-title><a class=post-link href=/staging-web/post/data_structure_static_pointer/>Data Structures: Ditto::static_ptr&lt;Base, Derived, ...></a></h1>
+<div class=post-meta>
+<span class=post-time> 2022-01-02 </span>
+<span class=more-meta> 992 words </span>
+<span class=more-meta> 5 mins read </span>
+</div>
+</header>
+<div class=post-content>
+<div class=post-summary>
+One of the nice things about C++ compared to C is its ability to define reusable types and data structures. They make code reuse easier and also help with reasoning if the abstraction is high-level enough.
+Today we are going to talk about static_ptr from the library Ditto. Dynamic allocation is often forbidden when developing embedded systems. This leads to allocating most things either in the stack or globally. A static_ptr allows the user to statically allocate an object of a derived class and access it as a base class pointer.
+</div>
+<div class=read-more>
+<a href=/staging-web/post/data_structure_static_pointer/ class=read-more-link>Read more...</a>
+</div>
+</div>
+</article>
+<article class=post>
+<header class=post-header>
 <h1 class=post-title><a class=post-link href=/staging-web/post/bare-metal-register-access-api/>Bare Metal C++ Register Access API</a></h1>
 <div class=post-meta>
 <span class=post-time> 2021-09-25 </span>
@@ -98,23 +117,6 @@ One of the most common ways of accessing peripherals from a CPU is memory-mappin
 </div>
 <div class=read-more>
 <a href=/staging-web/post/bare-metal-register-access-api/ class=read-more-link>Read more...</a>
-</div>
-</div>
-</article>
-<article class=post>
-<header class=post-header>
-<h1 class=post-title><a class=post-link href=/staging-web/post/statically-allocated-polymorphic-object-abstraction/>Statically Allocated Polymorphic Object Abstraction</a></h1>
-<div class=post-meta>
-<span class=post-time> 2021-07-23 </span>
-<span class=more-meta> 0 words </span>
-<span class=more-meta> 0 mins read </span>
-</div>
-</header>
-<div class=post-content>
-<div class=post-summary>
-</div>
-<div class=read-more>
-<a href=/staging-web/post/statically-allocated-polymorphic-object-abstraction/ class=read-more-link>Read more...</a>
 </div>
 </div>
 </article>
@@ -211,7 +213,7 @@ Theme -
 <span class=copyright-year>
 &copy;
 2018 -
-2021<span class=heart><i class="iconfont icon-heart"></i></span><span>Javier Alvarez</span>
+2022<span class=heart><i class="iconfont icon-heart"></i></span><span>Javier Alvarez</span>
 </span>
 </div>
 </footer>
